@@ -6,8 +6,8 @@ import { config } from "../App";
 import { useSnackbar } from "notistack";
 import Loading from "../utils/Loading";
 import VideoGrid from "./VideoGrid";
-import KeyboardDoubleArrowUpIcon from "@mui/icons-material/KeyboardDoubleArrowUp";
-import SearchBar from "./SearchBar";
+import KeyboardDoubleArrowUpIcon from "@mui/icons-material/KeyboardDoubleArrowUp"
+import SearchBar from "./SearchBar"
 
 const Videos = ({ videoDetails }) => {
   const { enqueueSnackbar } = useSnackbar();
